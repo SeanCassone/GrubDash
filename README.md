@@ -1,25 +1,23 @@
 # GrubDash
 
 ## Context
-This application is a apllication for a new startup company for food delivery.
+This application is a apllication for a new startup company for food delivery. To 
  
-> [Live Demo](https://project-pomodoro-timer-qualified-1-six.vercel.app/)
+>  ![screenshot](/GrubDash.png)
 
 ## User 
-The intended user of this application is anyone. Everyone needs to manage their time these days.
+The intended user of this application is everyone who needs to get food delivered
 
 ## Use
-The intended use of this application is to manage your time efficiently.
+The intended use of this application is to order food form the best resturants near you.
 
 ## Features
-* Focus Timer
-  * Can be adjusted in increments of 5 minutes
-  * Can be increased to a maximum of 60 minutes
-  * Can be decreased to a minimum of 5 minutes
-* Break Timer
-  * Can be adjusted in increments of 1 minutes
-  * Can be increased to a maximum of 15 minutes
-  * Can be decreased to a minimum of 1 minutes
+* Main Page
+  * Popular items are displayed and can be added to the cart.
+* Dash Board
+  * Can edit orders
+  * Can Create new dishes
+  * Can edit current dishes
 
 
 ## Technologies used
@@ -27,9 +25,11 @@ The intended use of this application is to manage your time efficiently.
 * JavaScript
 * Bootstrap
 * NodeJs
+* Express
+* Middleware
 
 ## Discoveries
-The Pomodor timer is the first application I coded in react. It was very diffucult learning how state works in React. I did however manage to get through it an learned all about React State in the process.
+GrubDash was a fun project to work on. I built the back-end for this project using Express
 
 ## Future goals for this project
-I intened on adding the ability to be able to save a preset timer.
+I intened on adding the ability to authenticate users with a login
